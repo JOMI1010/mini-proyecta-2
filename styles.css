@@ -12,3 +12,10 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+.imgenes-pequenas {
+    width: 2500px;
+    height: 300px;
+    margin: 30px;
+    border: 0px solid #000000;
+    border-radius: 10px;
+}
