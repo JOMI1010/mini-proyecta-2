@@ -1,5 +1,13 @@
-body {
+.fondo1 {
     background-image: url('img/fullsize/fondo-eladio1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: #818181;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
