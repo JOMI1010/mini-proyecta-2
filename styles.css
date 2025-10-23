@@ -55,6 +55,11 @@ body {
     font-weight: 400;
     text-align: center;
     padding-top: 2%; /*separa el texto por arriba(top)*/
+    width: 150px;
+    height: 25px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
 }
 
 .item {
@@ -63,15 +68,13 @@ body {
     align-items: center;
 }
 
-p {
-    width: 150px;
-    height: 25px;
-    background-color: #000000;
+.texto {
+    
+    width: 200px;
+    height: auto;
     border-radius: 10px;
     border: 2px solid #FFFFFF;
 }
-
-/*cosas añadidas*/
 
 .item:hover {
   transform: scale(1.2); /* Aumenta el tamaño al 120% */
