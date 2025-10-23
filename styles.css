@@ -69,11 +69,13 @@ body {
 }
 
 .texto {
-    
-    width: 200px;
+    margin: 100px auto 50px auto;
+    padding: 20px;
+    width: 500px;
     height: auto;
     border-radius: 10px;
     border: 2px solid #FFFFFF;
+    background-color: white;
 }
 
 .item:hover {
@@ -86,9 +88,18 @@ img {
 
 .container2 {
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap-reverse;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    margin: 50px 100px 100px 100px;   
+    background-color: black;
 }
 
 .foto {
+    margin: 100px 100px 100px 100px;
+}
 
+.centrar {
+    display: flex;
+    justify-content: center;
 }
